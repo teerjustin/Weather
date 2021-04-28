@@ -1,0 +1,47 @@
+.navBar{
+    display: flex;
+    background: rgb(139, 189, 255);
+    color: white;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+}
+.title{
+    flex:1;
+    font-size: 3rem;
+}
+.rightHalf{
+    flex:1;
+    display: flex;
+    justify-content: left;
+}
+
+.rightHalf h2{
+    margin-left: 80px;
+    margin-right: 50px;
+    font-size: 2rem;
+}
+
+.currentPlace{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 500px;
+    margin-right: 700px;
+    font-size: 1.5rem;
+    border-bottom: 2px solid black;
+}
+
+
+.showTemp{
+    margin-left: 900px;
+    display: flex;
+}
+
+#temp{
+    margin-top: 15px;
+    margin-left: 15px;
+    height: 45px;
+    width: 55px;
+    border: 2px solid black;
+}
